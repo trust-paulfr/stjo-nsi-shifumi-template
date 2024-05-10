@@ -1,0 +1,110 @@
+/* Header */
+
+html {
+    overflow: hidden;
+}
+
+#container .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+#container .header img {
+    width: 50px;
+    margin-right: 5px;
+}
+
+
+#container .header h1 {
+    font-size: 45px;
+    font-weight: 400;
+}
+
+/* Body */
+
+#container .body .wait {
+    display: flex;
+    justify-content: center;
+}
+
+#container .body img {
+    width: 200px;
+    margin-top: 80px;
+}
+
+#container .body .contentText {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#container .body .contentText .helloText {
+    display: flex;
+    justify-content: center;
+}
+
+#container .body .contentText p {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+#container .body .contentText .helloText h1 {
+    font-size: 50px;
+    font-weight: 400;
+    margin-right: 10px;
+    font-style: italic;
+    color: #717171;
+}
+
+#helloTextPrenom {
+    color: #249C30 !important;
+}
+
+
+#container .body .waitingTime {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#container .body .waitingTime p {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+#container .body .waitingTime h6 {
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: 200;
+    font-style: italic;
+}
+
+/* Footer */
+
+#container .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 50px;
+} 
+
+#container .footer .btn {
+    padding: 10px;
+    width: 300px;
+}
+
+@keyframes animWaiting {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.test {
+    animation: animWaiting 5s infinite;
+}
